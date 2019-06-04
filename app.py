@@ -45,7 +45,7 @@ while(1):
 		smtp_gmail = smtplib.SMTP('smtp.gmail.com',587)
 		smtp_gmail.ehlo()
 		smtp_gmail.starttls()
-		smtp_gmail.login('ldj0635@gmail.com','Djfrnf08!@')
+		smtp_gmail.login('ldj0635@gmail.com','')
 
 		msg=EmailMessage()
 		msg['Subject']="smoker detected"
